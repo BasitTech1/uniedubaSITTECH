@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="agriculture-company-logo-01.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- --------------------------------about us content------------------- -->
+
+    <section class="about_us">
+        <div class="row">
+            <div class="about_col">
+                <h1>We are the world's Largest university</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit aut dolorum suscipit illo
+                    reprehenderit ad nesciunt. Est ea autem, maxime maiores inventore assumenda perferendis illo quidem
+                    non vero mollitia voluptas illum saepe voluptates ipsa impedit! Eius velit qui ipsam esse porro
+                    beatae ducimus perferendis.</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about_col">
+                <img src="meeting.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- -----------------------------Footer-------------------------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laborum dignissimos eligendi iusto
+            consequatur voluptatibus nihil fuga fugiat et at vel assumenda explicabo atque culpa, aspernatur aliquid
+            suscipit quas provident minus aut alias excepturi!</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by basit_tech</p>
+    </section>
+    <!-- -------------------Javascript for Toggle Menu------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>

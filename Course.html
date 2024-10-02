@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education 1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <section class="sub_header">
+        <nav>
+            <a href="index.html"><img src="agriculture-company-logo-01.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-regular fa-circle-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                    <li><a href="Course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- --------------------------------Course------------------- -->
+
+    <section class="Course"></section>
+    <h1>Courses We offer</h1>
+    <p class="course_des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <div class="row">
+        <div class="course_col">
+            <h3>Intermediate</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia libero fuga tempora
+                laudantium, ducimus officiis, ipsum repudiandae porro dolorum, veniam impedit amet quam quo id minus
+                eaque cupiditate nemo?</p>
+        </div>
+        <div class="course_col">
+            <h3>Degree</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia libero fuga tempora
+                laudantium, ducimus officiis, ipsum repudiandae porro dolorum, veniam impedit amet quam quo id
+                minus
+                eaque cupiditate nemo?</p>
+        </div>
+        <div class="course_col">
+            <h3>Post Graduation</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quia libero fuga tempora
+                laudantium, ducimus officiis, ipsum repudiandae porro dolorum, veniam impedit amet quam quo
+                id minus
+                eaque cupiditate nemo?</p>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- -------------------------Facilities------------------------ -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p class="course_des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="facilities_col">
+                <img src="library2.jpg">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam nam quia esse?</p>
+            </div>
+            <div class="facilities_col">
+                <img src="Basketball.jpg">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam nam quia esse?</p>
+            </div>
+            <div class="facilities_col">
+                <img src="cafteria.jpg">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam nam quia esse?</p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- -----------------------------Footer-------------------------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam laborum dignissimos eligendi iusto
+            consequatur voluptatibus nihil fuga fugiat et at vel assumenda explicabo atque culpa, aspernatur aliquid
+            suscipit quas provident minus aut alias excepturi!</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p>Made with <i class="fa-regular fa-heart"></i> by basit_tech</p>
+    </section>
+    <!-- -------------------Javascript for Toggle Menu------------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px"
+        }
+    </script>
+
+</body>
+
+</html>
